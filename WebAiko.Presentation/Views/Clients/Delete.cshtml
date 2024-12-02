@@ -1,0 +1,44 @@
+﻿@model WebAiko.Domain.Entities.Client
+
+@{
+    ViewData["Title"] = "Delete Client";
+}
+
+<h1>Удалить клиента?</h1>
+
+<div>
+    <h4>Client</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            ClientId
+        </dt>
+        <dd class="col-sm-10">
+            @Model.ClientId
+        </dd>
+        <dt class="col-sm-2">
+            Username
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Username
+        </dd>
+        <dt class="col-sm-2">
+            SystemId
+        </dt>
+        <dd class="col-sm-10">
+            @Model.SystemId
+        </dd>
+    </dl>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="ClientId" />
+    <input type="submit" value="Удалить" class="btn btn-danger" /> |
+    <a asp-action="Index">Назад</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

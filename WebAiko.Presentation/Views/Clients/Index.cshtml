@@ -1,0 +1,37 @@
+﻿@model IEnumerable<WebAiko.Domain.Entities.Client>
+
+@{
+    ViewData["Title"] = "Clients";
+}
+
+<h1>Клиенты</h1>
+
+<p>
+    <a asp-action="Create">Создать</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ClientId</th>
+            <th>Username</th>
+            <th>SystemId</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ClientId</td>
+                <td>@item.Username</td>
+                <td>@item.SystemId</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ClientId">Редактирование</a> |
+                    <a asp-action="Details" asp-route-id="@item.ClientId">Детали</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ClientId">Удаление</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

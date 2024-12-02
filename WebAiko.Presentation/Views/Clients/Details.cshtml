@@ -1,0 +1,36 @@
+﻿@model WebAiko.Domain.Entities.Client
+
+@{
+    ViewData["Title"] = "Client Details";
+}
+
+<h1>Клиент детали</h1>
+
+<div>
+    <h4>Клиент</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            ClientId
+        </dt>
+        <dd class="col-sm-10">
+            @Model.ClientId
+        </dd>
+        <dt class="col-sm-2">
+            Username
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Username
+        </dd>
+        <dt class="col-sm-2">
+            SystemId
+        </dt>
+        <dd class="col-sm-10">
+            @Model.SystemId
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ClientId">Редактировать</a> |
+    <a asp-action="Index">Назад</a>
+</div>

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAiko.Presentation", "WebAiko.Presentation\WebAiko.Presentation.csproj", "{C4995821-1492-4BA6-BC03-1BCD9C8A8B98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAiko.Application", "WebAiko.Application\WebAiko.Application.csproj", "{78EC7672-3DD1-49B7-BD09-5011BFBC4211}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAiko.Domain", "WebAiko.Domain\WebAiko.Domain.csproj", "{6F2551CC-EDFA-4C84-96EA-D7FA7DF859B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAiko.Infrastructure", "WebAiko.Infrastructure\WebAiko.Infrastructure.csproj", "{B747C4F6-6263-4D58-85C4-963943B0C26E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAiko.Tests", "WebAiko.Tests\WebAiko.Tests.csproj", "{410675AE-6514-4E15-937B-B27EC2C426EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4995821-1492-4BA6-BC03-1BCD9C8A8B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4995821-1492-4BA6-BC03-1BCD9C8A8B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4995821-1492-4BA6-BC03-1BCD9C8A8B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4995821-1492-4BA6-BC03-1BCD9C8A8B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78EC7672-3DD1-49B7-BD09-5011BFBC4211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EC7672-3DD1-49B7-BD09-5011BFBC4211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EC7672-3DD1-49B7-BD09-5011BFBC4211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EC7672-3DD1-49B7-BD09-5011BFBC4211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2551CC-EDFA-4C84-96EA-D7FA7DF859B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2551CC-EDFA-4C84-96EA-D7FA7DF859B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2551CC-EDFA-4C84-96EA-D7FA7DF859B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2551CC-EDFA-4C84-96EA-D7FA7DF859B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B747C4F6-6263-4D58-85C4-963943B0C26E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B747C4F6-6263-4D58-85C4-963943B0C26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B747C4F6-6263-4D58-85C4-963943B0C26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B747C4F6-6263-4D58-85C4-963943B0C26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410675AE-6514-4E15-937B-B27EC2C426EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410675AE-6514-4E15-937B-B27EC2C426EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410675AE-6514-4E15-937B-B27EC2C426EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410675AE-6514-4E15-937B-B27EC2C426EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6CFDF99-9D68-45A2-9EED-5FDFFB3A6F58}
+	EndGlobalSection
+EndGlobal
